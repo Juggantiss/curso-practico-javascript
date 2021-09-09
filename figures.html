@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Geometric Figures | Practice Course of Javascript</title>
+    <title>Figuras Geometricas | Curso Practico de Javascript</title>
   </head>
   <body>
-    <h1>Geometric Figures</h1>
+    <header>
+      <h1>Figuras Geometricas</h1>
+      <p>Este es el primer taller del curso practico de JS</p>
+    </header>
+
+    <section>
+      <h2>Calcula el area y perimetro del cuadrado</h2>
+      <form>
+        <label for="InputSquare">
+          Escribe cuanto mide cada lado de tu cuadrado
+        </label>
+        <input id="InputSquare" type="number" />
+        <button type="button" onclick="calculatePerimeterSquare()">
+          Calcular el perimetro
+        </button>
+        <button type="button" onclick="calculateAreaSquare()">
+          Calcular el area
+        </button>
+      </form>
+    </section>
 
     <script src="./figures.js"></script>
   </body>
