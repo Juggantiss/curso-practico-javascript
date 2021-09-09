@@ -18,11 +18,55 @@
         <label for="InputSquare">
           Escribe cuanto mide cada lado de tu cuadrado
         </label>
-        <input id="InputSquare" type="number" />
+        <input id="InputSquare" type="number" /> <br />
         <button type="button" onclick="calculatePerimeterSquare()">
           Calcular el perimetro
         </button>
         <button type="button" onclick="calculateAreaSquare()">
+          Calcular el area
+        </button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Calcula el area y perimetro del triangulo</h2>
+      <form>
+        <label for="InputTriangleSideOne">
+          Escribe cuanto mide el lado 1 de tu triangulo
+        </label>
+        <input id="InputTriangleSideOne" type="number" /> <br />
+        <label for="InputTriangleSideTwo">
+          Escribe cuanto mide el lado 2 de tu triangulo
+        </label>
+        <input id="InputTriangleSideTwo" type="number" /> <br />
+        <label for="InputTriangleBase">
+          Escribe cuanto mide la base de tu triangulo
+        </label>
+        <input id="InputTriangleBase" type="number" /> <br />
+        <label for="InputTriangleHeight">
+          Escribe cuanto mide la altura de tu triangulo
+        </label>
+        <input id="InputTriangleHeight" type="number" /> <br />
+        <button type="button" onclick="calculatePerimeterTriangle()">
+          Calcular el perimetro
+        </button>
+        <button type="button" onclick="calculateAreaTriangle()">
+          Calcular el area
+        </button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Calcula el area y perimetro del circulo</h2>
+      <form>
+        <label for="InputCircle">
+          Escribe cuanto mide el radio de tu circulo
+        </label>
+        <input id="InputCircle" type="number" /> <br />
+        <button type="button" onclick="calculatePerimeterCircle()">
+          Calcular el perimetro
+        </button>
+        <button type="button" onclick="calculateAreaCircle()">
           Calcular el area
         </button>
       </form>
