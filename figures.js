@@ -95,3 +95,16 @@ const calculateAreaCircle = () => {
 
   alert(area);
 };
+
+// Challenge One
+const calculateHeightTriangleIsosceles = (sideOne, sideTwo, base) => {
+  if (sideOne === sideTwo && sideOne != base) {
+    alert("isoceles");
+    const height = Math.sqrt(sideOne ** 2 - base ** 2 / 4);
+    console.log(height);
+  } else {
+    alert("No es isoceles");
+  }
+};
+
+calculateHeightTriangleIsosceles(6, 6, 4);
